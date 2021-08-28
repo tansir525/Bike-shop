@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+/* Navigation */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  background: #264653;
+}
+nav li a:hover {
+  background: #e76f51;
+  border-radius: 10px;
+  transition: 1.5s;
+}
+button.btn {
+  background: #e76f51;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.custom-btn button.btn {
+  background: transparent;
+  color: #e76f51;
+  border: 1px solid #e76f51;
+}
+
+/* Custom Banner Part */
+
+#home {
+  width: 100%;
+
+  background: #264653;
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-texth1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+/* Custom main Part */
+#Bcollection-color {
+  color: #e76f51;
+  font-weight: 600;
+}
+#grayscale {
+  filter: grayscale(100%);
+  width: 288px;
+  height: 243px;
+}
+#img-size {
+  width: 288px;
+  height: 243px;
+}
+#custom-img {
+  width: 149px;
+  height: 149px;
+}
+
+#custom-font {
+  font-weight: 700;
+}
+#custom-font2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+/* Happy clints part */
+span {
+  color: #e76f51;
+}
+
+.fa-star {
+  color: #e76f51;
+}
+
+/* Frequently Asked Questions */
+
+#custom-border {
+  border: 1px solid #d5e5fb;
+}
+
+/* carousel */
+
+.custom-level {
+  font-family: "Rancho", cursive;
+  background: black;
+  letter-spacing: 10px;
+}
